@@ -1,0 +1,23 @@
+{
+  "name": "fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:lint": "eslint .",
+    "test:mocha": "mocha",
+    "test": "npm run test:lint && npm run test:mocha",
+    "start": "node cluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
