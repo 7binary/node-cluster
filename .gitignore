@@ -12,6 +12,7 @@ selenium-debug.log
 .idea
 .vscode
 .history
+.now
 *.suo
 *.ntvs*
 *.njsproj
